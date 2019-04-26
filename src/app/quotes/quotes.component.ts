@@ -8,7 +8,8 @@ import{Quotes} from '../quotes'
 export class QuotesComponent implements OnInit {
 
   quotes = [
-    new Quotes('Once bitten twice shy.')
+    new Quotes('Fly, if you cant fly run, if you cant run walk,if you cant walk crawl .',
+  'Author:Myles Munroe')
   ]
 
   constructor() { }
