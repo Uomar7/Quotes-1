@@ -8,7 +8,5 @@ import{Quotes} from './quotes'
 })
 export class AppComponent {
 
-  quotes = [
-    new Quotes('Once bitten twice shy.')
-  ]
+  
 }
