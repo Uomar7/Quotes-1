@@ -9,5 +9,5 @@
          [quote]='quote' (deleteit)='deleteQuote($event,i)'></app-quotes-details>
     </div>
     <!--Refers to quotes-form.html to display form-->
-    <app-quotes-form></app-quotes-form>
+   <app-quotes-form (addQuotes)='addNewQuotes($event)'></app-quotes-form>
 </ul>
