@@ -11,6 +11,13 @@ export class QuotesComponent implements OnInit {
     new Quotes('Fly, if you cant fly run, if you cant run walk,if you cant walk crawl .',
   'Author:Myles Munroe')
   ]
+
+  deleteQuote(deleteit,index){
+       if (deleteit){
+           this.quotes.splice(index,1);
+           }
+           }
+
     toogleDetails(index){
       this.quotes[index].showInformation=!
       this.quotes[index].showInformation;
