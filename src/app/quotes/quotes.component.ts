@@ -9,7 +9,7 @@ export class QuotesComponent implements OnInit {
 
   quotes = [
     new Quotes('Fly, if you cant fly run, if you cant run walk,if you cant walk crawl .',
-  'Author:Myles Munroe')
+  'Author:Myles Munroe',new Date(2019,3,2019)),
   ]
 
   deleteQuote(deleteit,index){
