@@ -1,13 +1,21 @@
 <!--This displays the list of quotes-->
-<ul>
-    <div *ngFor='let quote of quotes;let i = index'>
-        <li >{{quote.name}}</li>
+<div class="container-fluid">
+  <div class="row">
+<div class="col-md-7">
+  <h3>Quotes library</h3>
+    <div class="quote" *ngFor='let quote of quotes;let i = index'>
+        <p>๛ {{quote.name}}</p>
        <!--Button to toogle hide and show quote details-->
         <button  (click)='toogleDetails(i)'>▼</button>
         <!--Obtains details about a quote from quote-details-->
         <app-quotes-details *ngIf="quote.showInformation"
          [quote]='quote' (deleteit)='deleteQuote($event,i)'></app-quotes-details>
     </div>
+    </div>
+    <div class="col-md-5">
+      <h4>Make new quote</h4>
     <!--Refers to quotes-form.html to display form-->
    <app-quotes-form (addQuotes)='addNewQuotes($event)'></app-quotes-form>
-</ul>
+   </div>
+   </div>
+  </div>

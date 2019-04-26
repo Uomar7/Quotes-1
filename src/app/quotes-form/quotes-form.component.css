@@ -1,0 +1,12 @@
+textarea{
+  width:400px;
+}
+form{
+  text-align: left;
+}
+.btn1{
+  color: white;
+  background-color: black;
+  border-radius: 6px;
+  padding:5px;
+}
