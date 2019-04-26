@@ -1,8 +1,10 @@
+<!--This displays the list of quotes-->
 <ul>
     <div *ngFor='let quote of quotes;let i = index'>
         <li >{{quote.name}}</li>
-        
+       <!--Button to toogle hide and show quote details-->
         <button  (click)='toogleDetails(i)'>▼</button>
+        <!--Obtains details about a quote from quote-details-->
         <app-quotes-details *ngIf="quote.showInformation"
          [quote]='quote' (deleteit)='deleteQuote($event,i)'></app-quotes-details>
     </div>

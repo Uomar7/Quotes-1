@@ -1,3 +1,7 @@
+<!--Event emmiter Button to delete a quote-->
 <button (click) = 'quoteDeleting(true)'> ❌ </button>
+<!--Display quote details-->
 <p>{{quote.information}}</p>
-<li>{{quote.postDate|date}}</li>
+<p>Posted on:{{quote.postDate|date}}</p>
+<!--Display the post date-->
+<p>Posted {{quote.postDate|dateCount}} ago</p>
