@@ -19,15 +19,22 @@ button{
   border-radius: 5px;
   margin-bottom:5px;
 }
-.col-md-7,.col-md-5{
+.col-md-8,.col-md-2{
   border-left: 1px solid black;
   border-right: 1px solid black;
   padding:30px;
 }
-h3,h4{
+h3{
   margin:15px;
   border-bottom: 1px solid black;
   padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+h4{
+  background-color: black;
+  color:white;
+  padding:10px;
+  margin:10px;
 }
 #votes{
   margin-left: 100px;

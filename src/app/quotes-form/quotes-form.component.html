@@ -23,6 +23,14 @@
                 #information="ngModel">
 
             </div>
+            <div class="form-group">
+
+                <label for="information">Authors Name</label>
+                <input placeholder="Write the author's full names" type="text" required class="form-control" id="information"
+                [(ngModel)]="newQuotes.author" name='author'
+                #author="ngModel">
+
+            </div>
 
 
             <button type="Submit" class="btn1">Add Quote</button>

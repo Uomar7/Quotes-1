@@ -1,6 +1,8 @@
 # Quotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+### Author
+Bright Mukonesi
 ## Installations
 Install npm packages using command : npm install,
 
@@ -14,7 +16,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 2. Open you terminal and serve the app using command: ng serve, while
 in the directory of the app.
 3. open the app in any browser using this link: localhost4200/
-
+4. You can find the live demo at [S]
 ## Summary of how app works
 
 | Behavior                | Input                         | output                                |

@@ -12,6 +12,7 @@ export class QuotesDetailsComponent implements OnInit {
   quoteDeleting(deleting:boolean){
     this.deleteit.emit(deleting);
   }
+  
 
   constructor() { }
 
