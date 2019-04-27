@@ -7,6 +7,12 @@
         <p>๛ {{quote.name}}</p>
        <!--Button to toogle hide and show quote details-->
         <button  (click)='toogleDetails(i)'>▼</button>
+
+        <button id="votes" (click)='like'>👍</button>
+        <span id="likebtn"></span>
+        <button id="votes" click='dislike'>👎</button>
+        <span id="dislikebtn"></span>
+      
         <!--Obtains details about a quote from quote-details-->
         <app-quotes-details *ngIf="quote.showInformation"
          [quote]='quote' (deleteit)='deleteQuote($event,i)'></app-quotes-details>
