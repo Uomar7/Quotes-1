@@ -39,15 +39,7 @@ export class QuotesComponent implements OnInit {
         this.quotes.push(quote)
       }
 
-      public counter1:number=0;
-       like(index){
-         this.counter1+=1;
-       }
-      public counter2:number=0;
-       dislike(index){
-         this.counter2+=1;
-       }
-
+    
   constructor() { }
 
   ngOnInit() {

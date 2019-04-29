@@ -16,7 +16,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 2. Open you terminal and serve the app using command: ng serve, while
 in the directory of the app.
 3. open the app in any browser using this link: localhost4200/
-4. You can find the live demo at [S]
+4. You can find the live demo at [https://brightmuk.github.io/Quotes/]
 ## Summary of how app works
 
 | Behavior                | Input                         | output                                |

@@ -3,8 +3,9 @@ export class Quotes {
   public counter1:number;
   public counter2:number;
 
+
   constructor (public name:string,public information:string,public author:string,
-  public postDate:Date,){
+  public postDate:Date, ){
 
     this.showInformation = false;
 
